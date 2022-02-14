@@ -1,0 +1,46 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+h1 {
+  color:blue
+}
+.hero {
+  border: solid 3px black;
+  background-image: url("shoes.jpeg");
+  background-position: center;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.hero{
+  height: 40px;
+  text-align:left;   
+}
+footer{
+  background-color:whitesmoke;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 15;
+  border: solid 3px black
+}
+.list{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+  margin-top:25px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  border: solid 3px black;
+  height: 680px;
+}
+
+.login_btn{
+  padding: 7px;
+  background-color: black;
+  color: white;
+}
